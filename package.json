@@ -1,0 +1,22 @@
+{
+  "name": "travellings-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "vitepress": "1.0.0-rc.42"
+  },
+  "dependencies": {
+    "vite-plugin-vitepress-auto-sidebar": "^1.6.2",
+    "vue": "^3.4.19"
+  }
+}
